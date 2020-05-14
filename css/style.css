@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: #d6d6d6;
+    padding: 10px 2%;
+}
+
+header .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header div .logo-1{
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/logo1.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header div .logo-2{
+    float: right;
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/logo2.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 510px){
+    header{
+        text-align: center;
+    }
+    header div .logo-1, header div .logo-2{
+        margin-top: 10px;
+        float: none;
+        display: inline-block;
+    }
+}
