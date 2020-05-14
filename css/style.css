@@ -14,16 +14,16 @@ html, body{
 
 header{
     background-color: #d6d6d6;
-    padding: 10px 2%;
+    padding: 10px 2% 30px 2%;
 }
 
-header .container{
+header .container, section .container{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-header div .logo-1{
+header .logo-1{
     float: left;
     width: 200px;
     height: 80px;
@@ -33,7 +33,7 @@ header div .logo-1{
     background-repeat: no-repeat;
 }
 
-header div .logo-2{
+header .logo-2{
     float: right;
     width: 200px;
     height: 80px;
@@ -41,6 +41,74 @@ header div .logo-2{
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section .cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+
+section .bg{
+    height: 700px;
+    background-image: url(../images/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section .form-container{
+    float: right;
+    margin-right: 40px;
+    width: 400px;
+    height: 110%;
+    position: relative;
+    top: -3%;
+    background-color: white;
+}
+
+section .form-container h2{
+    padding: 20px 15px;
+    background-color: rgba(234, 236, 239, 0.8);
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section .form-container form{
+    margin-top: 8px;
+    padding: 15px;
+}
+
+section .form-wraper:not(:first-child){
+    margin-top: 40px;
+}
+
+section .form-wraper:last-child{
+    margin-top: 20px;
+}
+
+section .form-container form p{
+    font-size: 13px;
+    color: #525252;
+}
+
+section .form-container form input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+
+section .form-container form input[type=submit]{
+    background-color: #033c50;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
 }
 
 @media screen and (max-width: 510px){
