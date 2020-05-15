@@ -116,13 +116,16 @@ section.cover-form{
 
 section.chamada{
     z-index: 1;
+    width: 100%;
     position: relative;
     top: -50px;
-    padding: 30px 0;
     text-align: center;
-    width: 100%;
-    background-color: brown;
     display: inline-block;
+}
+
+section.chamada .container{
+    padding: 50px 0;
+    background-color: brown;
 }
 
 section.chamada h2{
@@ -130,8 +133,14 @@ section.chamada h2{
     max-width: 800px;
     display: inline-block;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: normal;
+}
+
+section.chamada p{
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 510px){
