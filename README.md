@@ -1,2 +1,3 @@
-# landing-page-2
- Landing Page
+# Landing Page 2
+ 
+ Utilizando SCSS
