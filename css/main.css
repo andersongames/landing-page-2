@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  background-color: #b4b4b4;
+  padding: 10px 2% 40px 2%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container .logo-1 {
+  float: left;
+  width: 200px;
+  height: 80px;
+  background-image: url(../images/logo1.png);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .logo-2 {
+  float: right;
+  width: 200px;
+  height: 80px;
+  background-image: url(../images/logo2.png);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.cover-form {
+  width: 100%;
+  padding: 0 2%;
+}
+
+.bg {
+  height: 500px;
+  background-image: url(../images/bg-form.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.form-container {
+  float: right;
+  margin-right: 40px;
+  width: 400px;
+  height: 110%;
+  position: relative;
+  z-index: 2;
+  top: -5%;
+  -webkit-box-shadow: 1px 2px 2px 1px #b4b4b4;
+          box-shadow: 1px 2px 2px 1px #b4b4b4;
+  background-color: white;
+}
+
+.form-container h2 {
+  padding: 25px 15px;
+  background-color: rgba(210, 210, 210, 0.8);
+  color: black;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.form-container form {
+  margin-top: 8px;
+  padding: 15px;
+}
+
+.form-wraper:not(:first-child) {
+  margin-top: 40px;
+}
+
+.form-wraper:last-child {
+  margin-top: 20px;
+}
+
+.form-container form p {
+  font-size: 13px;
+  color: #525252;
+}
+
+.form-container form input[type=text] {
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+}
+
+.form-container form input[type=submit] {
+  background-color: #033c50;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  height: 50px;
+  cursor: pointer;
+  border: 0;
+}
+
+section.chamada {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  display: inline-block;
+}
+
+section.chamada .container {
+  padding: 50px 0;
+  background-color: brown;
+}
+
+section.chamada h2 {
+  width: 96%;
+  max-width: 800px;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+section.chamada p {
+  color: white;
+  font-size: 16px;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
