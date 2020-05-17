@@ -130,7 +130,7 @@ section.chamada .container {
   background-color: brown;
 }
 
-section.chamada h2 {
+section.chamada .container h2 {
   width: 96%;
   max-width: 800px;
   display: inline-block;
@@ -139,9 +139,20 @@ section.chamada h2 {
   font-weight: normal;
 }
 
-section.chamada p {
+section.chamada .container p {
   color: white;
   font-size: 16px;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 510px) {
+  header {
+    text-align: center;
+  }
+  header div .logo-1, header div .logo-2 {
+    margin-top: 10px;
+    float: none;
+    display: inline-block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
