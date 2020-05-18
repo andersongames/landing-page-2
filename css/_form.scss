@@ -3,7 +3,7 @@ section.cover-form{
 
     .bg{
         position: relative;
-        height: 560px;
+        height: 620px;
         background-image: url(../images/bg-form.jpg);
         background-position: center;
         background-size: cover;
@@ -29,7 +29,7 @@ section.cover-form{
     }
 
     form{
-        margin-top: 12px;
+        margin-top: 40px;
         padding: 15px;
 
         .form-wraper:not(:first-child){
@@ -41,7 +41,7 @@ section.cover-form{
         }
 
         p{
-            font-size: 13px;
+            font-size: 14px;
             color: #525252;
         }
 
@@ -58,7 +58,7 @@ section.cover-form{
             text-transform: uppercase;
             color: white;
             width: 100%;
-            font-size: 15px;
+            font-size: 20px;
             height: 50px;
             cursor: pointer;
             border: 0;
