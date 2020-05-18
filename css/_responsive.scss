@@ -1,0 +1,31 @@
+@media screen and (max-width: 960px){
+	.bg{
+		height: auto;
+		padding: 40px 0px;
+		text-align: center;
+	}
+
+	.form-container{
+		height: auto;
+		width: 96%;
+		max-width: 400px;
+		position: static;
+		display: inline-block;
+
+		form{
+			margin-top: 5px;
+		}
+	}
+}
+
+@media screen and (max-width: 510px){
+    header{
+        text-align: center;
+
+        .logo-1, .logo-2{
+            margin-top: 10px;
+            float: none;
+            display: inline-block;
+        }
+    }
+}

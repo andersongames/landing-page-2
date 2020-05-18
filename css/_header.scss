@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(180, 180, 180);
+    padding: 10px 2% 40px 2%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-1{
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/logo1.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-2{
+    float: right;
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/logo2.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
