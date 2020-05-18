@@ -1,14 +1,12 @@
 section.chamada{
-    z-index: 1;
+
     width: 100%;
-    position: relative;
-    top: -50px;
     text-align: center;
-    display: inline-block;
 
     .container{
-        padding: 50px 0;
-        background-color: brown;
+        padding: 60px 0 50px 0;
+        background-color: rgb(66, 86, 124);
+    }
 
         h2{
             width: 96%;
@@ -17,6 +15,7 @@ section.chamada{
             color: white;
             font-size: 24px;
             font-weight: normal;
+            text-transform: uppercase;
         }
         
         p{
@@ -25,4 +24,3 @@ section.chamada{
             padding-top: 20px;
         }
     }
-}

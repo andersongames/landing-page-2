@@ -1,22 +1,20 @@
 section.cover-form{
     width: 100%;
-    padding: 0 2%;
 
     .bg{
-        height: 500px;
+        position: relative;
+        height: 560px;
         background-image: url(../images/bg-form.jpg);
         background-position: center;
         background-size: cover;
     }
 
     .form-container{
-        float: right;
-        margin-right: 40px;
+        position: absolute;
+        right: 30px;
+        top: -2.5%;
         width: 400px;
-        height: 110%;
-        position: relative;
-        z-index: 2;
-        top: -5%;
+        height: 105%;
         box-shadow: 1px 2px 2px 1px rgb(180, 180, 180);
         background-color: white;
 
@@ -30,7 +28,7 @@ section.cover-form{
         }
 
         form{
-            margin-top: 8px;
+            margin-top: 12px;
             padding: 15px;
 
             .form-wraper:not(:first-child){
