@@ -25,7 +25,7 @@ header {
   margin: 0 auto;
 }
 
-.container .logo-1 {
+.logo-1 {
   float: left;
   width: 200px;
   height: 80px;
@@ -35,7 +35,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.container .logo-2 {
+.logo-2 {
   float: right;
   width: 200px;
   height: 80px;
@@ -57,7 +57,7 @@ section.cover-form .bg {
   background-size: cover;
 }
 
-section.cover-form .form-container {
+.form-container {
   position: absolute;
   right: 30px;
   top: -2.5%;
@@ -68,7 +68,7 @@ section.cover-form .form-container {
   background-color: white;
 }
 
-section.cover-form .form-container h2 {
+.form-container h2 {
   padding: 25px 15px;
   background-color: rgba(210, 210, 210, 0.8);
   color: black;
@@ -77,25 +77,25 @@ section.cover-form .form-container h2 {
   text-transform: uppercase;
 }
 
-section.cover-form .form-container form {
+.form-container form {
   margin-top: 12px;
   padding: 15px;
 }
 
-section.cover-form .form-container form .form-wraper:not(:first-child) {
+.form-container form .form-wraper:not(:first-child) {
   margin-top: 40px;
 }
 
-section.cover-form .form-container form .form-wraper:last-child {
+.form-container form .form-wraper:last-child {
   margin-top: 20px;
 }
 
-section.cover-form .form-container form p {
+.form-container form p {
   font-size: 13px;
   color: #525252;
 }
 
-section.cover-form .form-container form input[type=text] {
+.form-container form input[type=text] {
   width: 100%;
   border: 1px solid #ccc;
   height: 45px;
@@ -103,7 +103,7 @@ section.cover-form .form-container form input[type=text] {
   padding-left: 10px;
 }
 
-section.cover-form .form-container form input[type=submit] {
+.form-container form input[type=submit] {
   background-color: #033c50;
   text-transform: uppercase;
   color: white;
