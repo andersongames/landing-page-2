@@ -52,7 +52,7 @@ section.cover-form {
 section.cover-form .bg {
   position: relative;
   height: 620px;
-  background-image: url(../images/bg-form.jpg);
+  background-image: url("../images/bg-form.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -147,20 +147,81 @@ section.chamada .container p {
 }
 
 .flex-mosaic .mosaic_1-img {
+  background-image: url("../images/mosaico1.jpg");
   background-position: center;
   background-size: cover;
-  background-image: url(../images/mosaico1.jpg);
   width: 60%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .flex-mosaic .mosaic_1-txt {
   width: 40%;
-  padding: 40px;
+  padding: 60px 50px;
   background-color: #3c5072;
 }
 
 .flex-mosaic .mosaic_1-txt p {
   color: white;
+  text-align: justify;
+}
+
+.flex-mosaic .mosaic_2-img {
+  background-image: url("../images/mosaico2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+}
+
+.flex-mosaic .mosaic_2-txt {
+  width: 40%;
+  padding: 60px 50px;
+  background-color: #3c5072;
+}
+
+.flex-mosaic .mosaic_2-txt p {
+  color: white;
+  text-align: justify;
+}
+
+.flex-mosaic .mosaic_3-img {
+  background-image: url("../images/mosaico3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.flex-mosaic .mosaic_3-txt {
+  width: 40%;
+  padding: 60px 50px;
+  background-color: #3c5072;
+}
+
+.flex-mosaic .mosaic_3-txt p {
+  color: white;
+  text-align: justify;
+}
+
+.flex-mosaic .mosaic_4-img {
+  background-image: url("../images/mosaico4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 60%;
+}
+
+.flex-mosaic .mosaic_4-txt {
+  width: 40%;
+  padding: 60px 50px;
+  background-color: #3c5072;
+}
+
+.flex-mosaic .mosaic_4-txt p {
+  color: white;
+  text-align: justify;
 }
 
 @media screen and (max-width: 960px) {

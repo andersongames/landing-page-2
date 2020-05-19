@@ -1,20 +1,56 @@
+@mixin mosaic-img($img-name) {
+    background-image: url("../images/mosaico#{$img-name}.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+@mixin mosaic-txt{
+    width: 40%;
+    padding: 60px 50px;
+    background-color: rgb(60, 80, 114);
+
+    p{
+        color: white;
+        text-align: justify;
+    }
+}
+
 .flex-mosaic{
     display: flex;
 
     .mosaic_1-img{
-        background-position: center;
-        background-size: cover;
-        background-image: url(../images/mosaico1.jpg);
-        width: 60%;
+        @include mosaic-img(1);
+        order: 1;
     }
 
     .mosaic_1-txt{
-        width: 40%;
-        padding: 40px;
-        background-color: rgb(60, 80, 114);
+        @include mosaic-txt;
+    }
 
-        p{
-            color: white;
-        }
+    .mosaic_2-img{
+        @include mosaic-img(2);
+        
+    }
+
+    .mosaic_2-txt{
+        @include mosaic-txt;
+    }
+
+    .mosaic_3-img{
+        @include mosaic-img(3);
+        order: 2;
+    }
+
+    .mosaic_3-txt{
+        @include mosaic-txt;
+    }
+
+    .mosaic_4-img{
+        @include mosaic-img(4);
+    }
+
+    .mosaic_4-txt{
+        @include mosaic-txt;
     }
 }
