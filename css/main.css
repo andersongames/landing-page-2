@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-  background-color: #b4b4b4;
+  background-color: gainsboro;
   padding: 10px 2% 40px 2%;
 }
 
@@ -70,7 +70,7 @@ section.cover-form .bg {
 
 .form-container h2 {
   padding: 25px 15px;
-  background-color: rgba(210, 210, 210, 0.8);
+  background-color: rgba(190, 190, 190, 0.8);
   color: black;
   font-weight: normal;
   font-size: 18px;
@@ -121,6 +121,19 @@ section.cover-form .bg {
 section.chamada {
   width: 100%;
   text-align: center;
+  position: relative;
+}
+
+section.chamada .arrow {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background-size: 100% 100%;
+  background-image: url(../images/arrow.png);
 }
 
 section.chamada .container {
@@ -202,7 +215,7 @@ footer {
 
 footer .container {
   width: 100%;
-  background-color: rgba(210, 210, 210, 0.8);
+  background-color: gainsboro;
 }
 
 footer img {
