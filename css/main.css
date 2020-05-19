@@ -140,6 +140,29 @@ section.chamada .container p {
   padding-top: 20px;
 }
 
+.flex-mosaic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-mosaic .mosaic_1-img {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/mosaico1.jpg);
+  width: 60%;
+}
+
+.flex-mosaic .mosaic_1-txt {
+  width: 40%;
+  padding: 40px;
+  background-color: #3c5072;
+}
+
+.flex-mosaic .mosaic_1-txt p {
+  color: white;
+}
+
 @media screen and (max-width: 960px) {
   .bg {
     height: auto;
