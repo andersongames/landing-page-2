@@ -1,3 +1,3 @@
 # Landing Page 2
  
- Utilizando SCSS
+ Primeiro projeto utilizando SCSS
