@@ -104,7 +104,7 @@ section.cover-form .bg {
 }
 
 .form-container form input[type=submit] {
-  background-color: #033c50;
+  background-color: #42567c;
   text-transform: uppercase;
   color: white;
   width: 100%;
@@ -112,6 +112,10 @@ section.cover-form .bg {
   height: 50px;
   cursor: pointer;
   border: 0;
+}
+
+.form-container form input[type=submit]:hover {
+  background-color: #3c5072;
 }
 
 section.chamada {
@@ -156,33 +160,11 @@ section.chamada .container p {
           order: 1;
 }
 
-.flex-mosaic .mosaic_1-txt {
-  width: 40%;
-  padding: 60px 50px;
-  background-color: #3c5072;
-}
-
-.flex-mosaic .mosaic_1-txt p {
-  color: white;
-  text-align: justify;
-}
-
 .flex-mosaic .mosaic_2-img {
   background-image: url("../images/mosaico2.jpg");
   background-position: center;
   background-size: cover;
   width: 60%;
-}
-
-.flex-mosaic .mosaic_2-txt {
-  width: 40%;
-  padding: 60px 50px;
-  background-color: #3c5072;
-}
-
-.flex-mosaic .mosaic_2-txt p {
-  color: white;
-  text-align: justify;
 }
 
 .flex-mosaic .mosaic_3-img {
@@ -195,17 +177,6 @@ section.chamada .container p {
           order: 2;
 }
 
-.flex-mosaic .mosaic_3-txt {
-  width: 40%;
-  padding: 60px 50px;
-  background-color: #3c5072;
-}
-
-.flex-mosaic .mosaic_3-txt p {
-  color: white;
-  text-align: justify;
-}
-
 .flex-mosaic .mosaic_4-img {
   background-image: url("../images/mosaico4.jpg");
   background-position: center;
@@ -213,13 +184,13 @@ section.chamada .container p {
   width: 60%;
 }
 
-.flex-mosaic .mosaic_4-txt {
+.flex-mosaic .mosaic_1-txt, .flex-mosaic .mosaic_2-txt, .flex-mosaic .mosaic_3-txt, .flex-mosaic .mosaic_4-txt {
   width: 40%;
   padding: 60px 50px;
   background-color: #3c5072;
 }
 
-.flex-mosaic .mosaic_4-txt p {
+.flex-mosaic .mosaic_1-txt p, .flex-mosaic .mosaic_2-txt p, .flex-mosaic .mosaic_3-txt p, .flex-mosaic .mosaic_4-txt p {
   color: white;
   text-align: justify;
 }
@@ -239,6 +210,19 @@ section.chamada .container p {
   }
   .form-container form {
     margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-mosaic {
+    display: block;
+  }
+  .flex-mosaic .mosaic_1-img, .flex-mosaic .mosaic_2-img, .flex-mosaic .mosaic_3-img, .flex-mosaic .mosaic_4-img {
+    padding-top: 80%;
+    width: 100%;
+  }
+  .flex-mosaic .mosaic_1-txt, .flex-mosaic .mosaic_2-txt, .flex-mosaic .mosaic_3-txt, .flex-mosaic .mosaic_4-txt {
+    width: 100%;
   }
 }
 

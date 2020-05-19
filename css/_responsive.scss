@@ -18,6 +18,22 @@
 	}
 }
 
+@media screen and (max-width: 768px){
+	.flex-mosaic{
+		display: block;
+
+		.mosaic_1-img, .mosaic_2-img, .mosaic_3-img, .mosaic_4-img{
+			padding-top: 80%;
+			width: 100%;
+		}
+
+		.mosaic_1-txt, .mosaic_2-txt, .mosaic_3-txt, .mosaic_4-txt{
+			width: 100%;
+		}
+	}
+}
+
+
 @media screen and (max-width: 510px){
     header{
         text-align: center;

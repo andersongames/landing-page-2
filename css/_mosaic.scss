@@ -24,17 +24,8 @@
         order: 1;
     }
 
-    .mosaic_1-txt{
-        @include mosaic-txt;
-    }
-
     .mosaic_2-img{
         @include mosaic-img(2);
-        
-    }
-
-    .mosaic_2-txt{
-        @include mosaic-txt;
     }
 
     .mosaic_3-img{
@@ -42,15 +33,12 @@
         order: 2;
     }
 
-    .mosaic_3-txt{
-        @include mosaic-txt;
-    }
-
     .mosaic_4-img{
         @include mosaic-img(4);
     }
 
-    .mosaic_4-txt{
+    .mosaic_1-txt, .mosaic_2-txt, .mosaic_3-txt, .mosaic_4-txt{
         @include mosaic-txt;
     }
+
 }
